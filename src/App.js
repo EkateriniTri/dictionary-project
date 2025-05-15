@@ -6,12 +6,27 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <header className="App-header">Dictionary</header>
-        <main>
-          <Dictionary />
-        </main>
+        <header className="App-header">Agape.Dictionary</header>
 
-        <footer className="text-center">Coded by Katerina Tri</footer>
+        <Dictionary />
+
+        <footer className="text-center">
+          This project was coded by Katerina Tri it is open-sourced on{" "}
+          <a
+            href="https://github.com/EkateriniTri/dictionary-project.git"
+            target="_blank"
+            rel="noopener noreferrer">
+            {" "}
+            GitHub{" "}
+          </a>
+          and{" "}
+          <a
+            href="https://agape-react-dictionary.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer">
+            hosted on Netlify
+          </a>
+        </footer>
       </div>
     </div>
   );

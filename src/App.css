@@ -1,4 +1,21 @@
-.header {
+.App {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+body {
+  background: #f9f8fe;
+}
+
+a {
+  color: #9670f4;
+}
+
+.App-header {
+  margin: 30px 0;
+}
+
+.app-footer {
+  margin: 30px 0;
   text-align: center;
-  margin-bottom: 20px;
 }
