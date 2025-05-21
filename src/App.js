@@ -7,8 +7,9 @@ function App() {
     <div className="App">
       <div className="container">
         <header className="App-header">Agape.Dictionary</header>
-
-        <Dictionary defaultKeyword="agape" />
+        <main>
+          <Dictionary defaultKeyword="agape" />
+        </main>
 
         <footer className="text-center">
           This project was coded by Katerina Tri it is open-sourced on{" "}
