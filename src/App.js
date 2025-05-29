@@ -1,14 +1,14 @@
 import React from "react";
 import "./App.css";
 import Dictionary from "./Dictionary";
-import logo from "./logo.png";
+import logo1 from "./logo1.png";
 
 function App() {
   return (
     <div className="App">
       <div className="container">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+          <img src={logo1} className="App-logo" alt="logo" />
         </header>
         <main>
           <Dictionary defaultKeyword="agape" />
