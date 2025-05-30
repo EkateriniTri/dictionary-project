@@ -15,7 +15,7 @@ function App() {
         </main>
 
         <footer className="text-center">
-          This project was coded by Katerina Tri it is open-sourced on{" "}
+          This project was coded by Katerina Tri, it is open-sourced on{" "}
           <a
             href="https://github.com/EkateriniTri/dictionary-project.git"
             target="_blank"
